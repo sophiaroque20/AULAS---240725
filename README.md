@@ -64,4 +64,28 @@ int main(){
 		  }
 	 	return 0;
 	     }	
+
+
+ATIVIDADE 3 
+
+ #include <stdio.h>
+	 #define IDADE_MINIMA 18
+	     int main (){
+	     int idade;
+	     printf("Digite sua idade:");
+	     scanf("%d",&idade);
+	     getchar();
+	     
+	     if (idade >= IDADE_MINIMA){
+	     	if(idade>=60){
+			 printf("Maior de idade e idoso.\n");
+			} else {
+			 printf("Maior de idade.\n");	
+			}
+		}else {
+			printf("Menor de idade.\n");
+		}	 
+	    
+	     return 0;	
+		 }
 	
