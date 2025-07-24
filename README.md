@@ -1,5 +1,8 @@
 # AULAS---240725
 CODIGOS C NO DEVC ++
+
+
+
 //BOLETIM ESCOLAR 
 
 #include <stdio.h>
@@ -39,4 +42,26 @@ int main(){
 	}
 	return 0;	
 	} 
+
+
+ ATIVIDADE 2 
+ 
+ 	#include <stdio.h>
+	#include <stdbool.h>
+	 
+	 int main(){
+	 	int idade;
+	 	bool maior_de_idade;
+	 	printf("Digite sua idade.(Ex: 10,7)");
+	 	scanf ("%d",&idade);
+	 	 getchar();
+	 	 maior_de_idade = idade>=18;
+	 	 if (maior_de_idade){
+	 	 	    printf("voce e maior de idade!");
+		  }
+		  else{
+		  	printf("voce e menor de idade!");
+		  }
+	 	return 0;
+	     }	
 	
