@@ -1,15 +1,15 @@
 # AULAS---240725
-CODIGOS C NO DEVC ++
+CODIGOS C - DEVC ++
 
 
 
-//BOLETIM ESCOLAR 
-
+//
+BOLETIM ESCOLAR
 #include <stdio.h>
 #include <string.h>
 int main(){
-	char nome [50]; // vetor 
-	float n1,n2; // variaveis
+	char nome [50];   // vetor 
+	float n1,n2;  // variaveis
 	
 	printf("===================================\n");
 	printf( "Dados dos Alunos -IBC\n");
