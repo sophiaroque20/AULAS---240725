@@ -5,6 +5,7 @@ CODIGOS C - DEVC ++
 
 //
 BOLETIM ESCOLAR
+
 #include <stdio.h>
 #include <string.h>
 int main(){
